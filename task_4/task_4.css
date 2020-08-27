@@ -1,0 +1,21 @@
+.product {
+	display: inline-grid;
+	position: relative;
+	width: 150px;
+	height: 250px;
+}
+
+.product img {
+	width: 150px;
+	height: 150px;
+}
+
+.product button {
+	position: absolute;
+	bottom: 0px;
+	left: 30px;
+}
+.desc {
+	width: 150px;
+	height: 150px;
+}

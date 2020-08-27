@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="task_3.css">
+	<title>Document</title>
+</head>
+<body>
+	<button class='showWindow'>Показать модальное окно</button>
+	<div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet porro cupiditate dignissimos tempora, ut, adipisci totam ducimus, numquam doloremque rerum recusandae dolores. Voluptatibus quaerat saepe sequi aperiam ipsam totam adipisci in inventore itaque et deleniti possimus numquam voluptas eos veniam accusantium quo aliquam, excepturi odit labore. Delectus, sunt explicabo at.
+		<button class='hideWindow'>Скрыть модальное окно</button></div>
+	<script>
+		'use strict';
+		let showWindow = document.querySelector('.showWindow');
+		let hideWindow = document.querySelector('.hideWindow');
+		let div = document.querySelector('div');
+		showWindow.addEventListener('click', function(event){
+			div.style.display = "block";
+		})
+		hideWindow.addEventListener('click', function(event){
+			div.style.display = "none";
+		})
+		
+
+	</script>
+</body>
+</html>
