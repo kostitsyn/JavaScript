@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * Генерирует шахматную доску.
+ */
 function createChessBoard () {
 	let body = document.querySelector('body');
 	body.insertAdjacentHTML('afterbegin', '<div></div>');
