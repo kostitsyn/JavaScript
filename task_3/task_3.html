@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="task_3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class='header'>
+			<div class='headerline'></div>
+			<button class='buttonBasket'>Корзина <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+		</div>
+		<div class='products'>
+			<div class='product product1'>
+				<p>Товар 1</p>
+				<img src="images/1.jpg">
+				<p class="price">120 <i class="fa fa-plus-square" aria-hidden="true"></i></p>
+				<button type='button' class='btn btn-success mt-1 toBasketBtn' data-id="1" data-price="120" data-name="Товар 1">В корзину</button>
+			</div>
+			<div class='product product2'>
+				<p>Товар 1</p>
+				<img src="images/2.jpg">
+				<p class="price">75 <i class="fa fa-plus-square" aria-hidden="true"></i></p>
+				<button type='button' class='btn btn-success mt-2 toBasketBtn' data-id="2" data-price="75" data-name="Товар 2">В корзину</button>
+			</div>
+			<div class='product product3'>
+				<p>Товар 1</p>
+				<img src="images/3.jpg">
+				<p class="price">3000 <i class="fa fa-plus-square" aria-hidden="true"></i></p>
+				<button type='button' class='btn btn-success mt-3 toBasketBtn' data-id="3" data-price="3000" data-name="Товар 3">В корзину</button>
+			</div>
+		</div>
+		<table class='hideTable'>
+			<tr>
+				<th>ID</th>
+				<th>Имя</th>
+				<th>Цена</th>
+				<th>Количество</th>
+				<th>          </th>
+			</tr>
+		</table>
+	</div>
+	<script src="task_3.js"></script>
+</body>
+</html>

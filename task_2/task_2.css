@@ -1,0 +1,42 @@
+.hideBlock {
+  display: none;
+}
+
+
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+
+
+.block {
+	position: absolute;
+	z-index: 1;
+}
+
+.slider-loadIcon, .slider-leftArrow, .slider-rightArrow {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  color: #ff1155;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.slider-loadIcon {
+  left: 50%;
+}
+
+.slider-leftArrow {
+  left: 10px;
+}
+
+.slider-rightArrow {
+  right: 10px;
+}
+
+.block img {
+  width: 100%;
+}

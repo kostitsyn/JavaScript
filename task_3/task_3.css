@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+	width: 920px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	height: 150px;
+	background-color: grey;
+	position: relative;
+}
+
+.buttonBasket {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border-radius: 4px;
+	border: 0px;
+}
+
+.products {
+	margin-top: 20px;
+}
+
+.products img {
+	width: 270px;
+	height: 250px; 
+}
+
+.product {
+	display: inline-block;
+	margin-left: 5px;
+    margin-right: 29px;
+}
+
+.toBasketBtn {
+	background-color: green;
+	color: white;
+	border-radius: 2px;
+	border: 0px;
+	width: 70px;
+	height: 30px;
+}
+
+.hideTable {
+	position: absolute;
+    top: 40px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.hideTable td, th {
+	width: 65px;
+}
